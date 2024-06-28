@@ -1,0 +1,219 @@
+.manager-container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.manager-container h3{
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius:  50px;
+    border: 1px solid black;
+}
+
+.manager-card{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.manager-card .project-list{
+    display: flex;
+    gap: 10px;
+}
+
+.manager-card .project-list .project-content{
+    border: 1px solid black;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+}
+
+.create-project{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../src/assets/taskBackground.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.create-project .project-desc{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+}
+
+.right img{
+    border-radius: 5px;
+    height: 250px;
+}
+
+.create-project .left{
+    width: 50%;
+}
+
+.create-project .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+form{
+    display: flex;
+    gap: 10px;
+    flex-flow: column;
+}
+
+input{
+    width: 70%;
+    margin: 10px;
+}
+
+span{
+    font-weight: 600;
+    width: 100%;
+}
+
+.project-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.filtered-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.filter-task{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.buttons{
+    gap: 10px;
+}
+
+.user-header{
+    /* width: 100%; */
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.user-navbar{
+}
+
+.text-danger{
+    width: 150px !important;
+    gap: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.container-task{
+    display: flex;
+    flex-flow: column;
+    /* margin: 10px; */
+    background-image: url("../src/assets/userBackground.jpg");
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.selectionlist{
+margin-left: 30rem;
+z-index: 1000;
+}
+.task-container{
+    border: 1px solid black;
+    height: 450px;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.notification-container{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+
+.notification-container .notification-left{
+    width: 50%;
+    padding: 20px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.notification-container .notification-right{
+    display: flex;
+    height: 320px;
+    align-items: top;
+    justify-content: center;
+    width: 50%;
+}
+.dropdown-menu.show {
+    display: block;
+    margin-left: 18rem;
+}
+.notification-right img{
+    height: 81%;
+}
+
+.optional{
+    position: relative;
+    align-items: center;
+    top: 150px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.noti-container{
+    height: 500px;
+    padding: 20px;
+    overflow-y: scroll;
+}
